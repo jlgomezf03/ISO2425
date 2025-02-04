@@ -40,7 +40,7 @@ while true; do
 
 		nombre=$(grep "^$dni:" Agenda.txt | cut -d ":" -f 2)
 		apellidos=$(grep "^$dni:" Agenda.txt | cut -d ":" -f 2)
-		poblacion=$(grep "$^dni:" Agenda.txt | cut -d ":" -f 2)
+		poblacion=$(grep "^$dni:" Agenda.txt | cut -d ":" -f 2)
 
 	;;
 
